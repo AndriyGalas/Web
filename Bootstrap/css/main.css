@@ -71,7 +71,7 @@ hr {
 #topper {
 	margin-top: -71px;
 	padding-bottom: 50px;
-	background-color: rgb(11, 190, 245);
+	background-color: rgb(8, 78, 99);
 	color: white;
 	text-align: center;
 	position: relative;
@@ -86,7 +86,7 @@ hr {
 }
 
 #headerwrap {
-	background: #c0c0c0;
+	background-image: url(../fonts/1.png);
 	margin-top: -20px;
 	padding-top: 20px;
 	text-align: center;
@@ -105,15 +105,15 @@ hr {
 
 #headerwrap h1{
 	margin-top: 100px;
-	color: white;
+	color: rgb(12, 26, 15);
 	font-size: 70px;
 	font-weight: 300;
 	letter-spacing: 3px;
 }
 
 #headerwrap h2 {
-	color: white;
-	font-size: 40px;
+	color: rgb(78, 5, 66);
+	font-size: 40px;	
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -127,7 +127,7 @@ hr {
 }
 
 #dg {
-	background: #e0e0e0;
+	background: #665286;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
@@ -146,7 +146,9 @@ hr {
 }
 
 #lg {
-	background: #ebebeb;
+	background-image: url(../fonts/2.png);
+	background-attachment: relative;
+	background-position: center center;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
@@ -165,6 +167,7 @@ hr {
 #r h4 {
 	color: white;
 	font-size: 45px;
+	margin-top: 70px;
 }
 
 #r p{
@@ -181,3 +184,23 @@ hr {
 	color: white;
 	text-align: center;
  }
+
+ #kk {
+	background: rgb(138, 131, 131);
+	padding-top: 70px;
+	text-align: center;
+}
+
+#gg {
+	background-image: white;
+	background-attachment: relative;
+	background-position: center center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+#gg h4 {
+	font-size: 45px;
+}
